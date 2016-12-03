@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Final Project</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <script src='http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js'></script>
+<h1>Upload Time</h1>
+<p><b>Feel free to upload any image(including personal pictures) you want!! Do not be afraid of me stealing your images it's super safe!</b>
+</p>
+<canvas id="can">
+</canvas>
+<h2>Upload An Image</h2>
+<p>
+  <input type="file" multiple="false" accept="image/*" id="user" onchange="UploadImage()">
+</p>
+<h3>Find Your Filter</h3>
+<p><em>It takes about five seconds please be patience!!</em></p>
+<p>
+  <input type="button" value="TurnGray" onclick="doGray()" />
+
+  <input type="button" value="TurnDarkBlue" onclick="doSkyblue()" />
+
+  <input type="button" value="TurnRed" onclick="doRed()" />
+  <input type="button" value="Special"
+         onclick="doRainbow()" />
+</p>
+<p><em>Display your image to the original form by clicking the button "Reset Image".</em>
+  <p>
+    <input type="button" value="Reset Image" onclick="resetImage()" />
+  </p>
+</p>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>

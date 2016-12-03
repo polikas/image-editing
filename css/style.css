@@ -1,0 +1,45 @@
+h1 {
+  color: orange;
+  font-size: 40pt;
+  background-color: red;
+  text-align: center;
+}
+
+body {
+  background-image: url("http://clubs.pathfinder.gr/getphoto.php?album=6332&pic_id=2&w=1024");
+  background-color: black;
+  text-align: center;
+  background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+h2 {
+  color: orange;
+  font-size: 20pt;
+}
+
+h3 {
+  color: orange;
+  font-size: 20pt;
+}
+
+canvas{
+  width: 400px;
+   //height: auto;
+  border: 5px solid orange;   
+  margin: 50pt;
+}
+
+input {
+  font-size: 10pt;
+  color: red;
+}
+
+em {
+  color: orange;
+}
+
+b {
+  color: orange;
+  font-size: 20pt;
+}
